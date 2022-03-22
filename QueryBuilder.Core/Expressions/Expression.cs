@@ -13,7 +13,7 @@ namespace QueryBuilder.Core.Expressions
             Token = token;
             this.CompilerType = compilerType;
         }
-
+        public abstract CompilerType GetExpressionType();
         public abstract string GenerateCode();
     }
 }
