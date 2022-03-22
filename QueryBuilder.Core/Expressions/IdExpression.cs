@@ -13,5 +13,10 @@ namespace QueryBuilder.Core.Expressions
         {
             throw new System.NotImplementedException();
         }
+
+        public override CompilerType GetExpressionType()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

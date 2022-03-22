@@ -10,6 +10,20 @@ namespace QueryBuilder.Core
         private static readonly Dictionary<string, IList<IdExpression>> SymbolTable =
             new Dictionary<string, IList<IdExpression>>();
 
+
+        public static Expression GeTable(string tableName)
+        {
+            var symbol = SymbolTable.TryGetValue(tableName, out var symbols) ? symbols : null;
+
+            if (symbol == null)
+            {
+                throw new ApplicationException($"{tableName} not found in current context");
+            }
+
+            return symbol.First();
+        }
+
+
         /// <summary>
         /// Gets all the properties for a specific table.
         /// </summary>
