@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "QueryBuilder.Parser/1.0.0": {
+        "dependencies": {
+          "QueryBuilder.Core": "1.0.0"
+        },
+        "runtime": {
+          "QueryBuilder.Parser.dll": {}
+        }
+      },
+      "QueryBuilder.Core/1.0.0": {
+        "runtime": {
+          "QueryBuilder.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QueryBuilder.Parser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QueryBuilder.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

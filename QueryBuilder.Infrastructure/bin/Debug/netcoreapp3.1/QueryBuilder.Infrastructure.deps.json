@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "QueryBuilder.Infrastructure/1.0.0": {
+        "dependencies": {
+          "QueryBuilder.Core": "1.0.0"
+        },
+        "runtime": {
+          "QueryBuilder.Infrastructure.dll": {}
+        }
+      },
+      "QueryBuilder.Core/1.0.0": {
+        "runtime": {
+          "QueryBuilder.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QueryBuilder.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QueryBuilder.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
